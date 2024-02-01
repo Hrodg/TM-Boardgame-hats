@@ -302,6 +302,7 @@ GameObject:
   m_Component:
   - component: {fileID: 258733391}
   - component: {fileID: 258733392}
+  - component: {fileID: 258733393}
   m_Layer: 0
   m_Name: hat11
   m_TagString: Untagged
@@ -377,6 +378,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &258733393
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 258733390}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.1229289, y: 1.0602014, z: 0.2}
+  m_Center: {x: 0.04024279, y: 0.3825525, z: 0}
 --- !u!1 &299368943
 GameObject:
   m_ObjectHideFlags: 0
@@ -472,6 +486,7 @@ GameObject:
   m_Component:
   - component: {fileID: 340323537}
   - component: {fileID: 340323538}
+  - component: {fileID: 340323539}
   m_Layer: 0
   m_Name: hat2
   m_TagString: Untagged
@@ -547,6 +562,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &340323539
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 340323536}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.494994, y: 0.85707974, z: 0.2}
+  m_Center: {x: 0.12516958, y: 0.4686483, z: 0}
 --- !u!1 &390714769
 GameObject:
   m_ObjectHideFlags: 0
@@ -1174,6 +1202,7 @@ GameObject:
   m_Component:
   - component: {fileID: 717330091}
   - component: {fileID: 717330092}
+  - component: {fileID: 717330093}
   m_Layer: 0
   m_Name: hat4
   m_TagString: Untagged
@@ -1249,6 +1278,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &717330093
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 717330090}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.7112373, y: 1.150776, z: 0.2}
+  m_Center: {x: 0.17929727, y: 0.36128122, z: 0}
 --- !u!1 &729749345
 GameObject:
   m_ObjectHideFlags: 0
@@ -1513,6 +1555,7 @@ GameObject:
   m_Component:
   - component: {fileID: 961132280}
   - component: {fileID: 961132281}
+  - component: {fileID: 961132282}
   m_Layer: 0
   m_Name: hat7
   m_TagString: Untagged
@@ -1588,6 +1631,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &961132282
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 961132279}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.9787099, y: 1.1251689, z: 0.2}
+  m_Center: {x: 0.0132392645, y: 0.1544252, z: 0}
 --- !u!1 &1060035332
 GameObject:
   m_ObjectHideFlags: 0
@@ -1767,6 +1823,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1244710013}
   - component: {fileID: 1244710014}
+  - component: {fileID: 1244710015}
   m_Layer: 0
   m_Name: hat12
   m_TagString: Untagged
@@ -1842,6 +1899,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1244710015
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1244710012}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.8112398, y: 1.0978993, z: 0.2}
+  m_Center: {x: 0.09322029, y: 0.42745623, z: 0}
 --- !u!1 &1354141925
 GameObject:
   m_ObjectHideFlags: 0
@@ -2063,6 +2133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1553382497}
   - component: {fileID: 1553382498}
+  - component: {fileID: 1553382499}
   m_Layer: 0
   m_Name: hat9
   m_TagString: Untagged
@@ -2138,6 +2209,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1553382499
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1553382496}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.9057071, y: 1.1904953, z: 0.2}
+  m_Center: {x: 0.010655284, y: 0.18685472, z: 0}
 --- !u!1 &1558349418
 GameObject:
   m_ObjectHideFlags: 0
@@ -2232,6 +2316,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1614941857}
   - component: {fileID: 1614941858}
+  - component: {fileID: 1614941859}
   m_Layer: 0
   m_Name: hat5
   m_TagString: Untagged
@@ -2307,6 +2392,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1614941859
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1614941856}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.6955698, y: 0.829607, z: 0.2}
+  m_Center: {x: 0.1993463, y: 0.3673978, z: 0}
 --- !u!1 &1659859597
 GameObject:
   m_ObjectHideFlags: 0
@@ -2574,6 +2672,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1936139744}
   - component: {fileID: 1936139745}
+  - component: {fileID: 1936139746}
   m_Layer: 0
   m_Name: hat10
   m_TagString: Untagged
@@ -2649,6 +2748,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1936139746
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1936139743}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.2110323, y: 0.83069277, z: 0.2}
+  m_Center: {x: -0.09201676, y: 0.5318396, z: 0}
 --- !u!1 &2010513652
 GameObject:
   m_ObjectHideFlags: 0
@@ -2743,6 +2855,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2035416589}
   - component: {fileID: 2035416590}
+  - component: {fileID: 2035416591}
   m_Layer: 0
   m_Name: hat8
   m_TagString: Untagged
@@ -2818,6 +2931,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &2035416591
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2035416588}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.3087437, y: 0.9068637, z: 0.2}
+  m_Center: {x: -0.030011535, y: 0.6354749, z: 0}
 --- !u!1 &2062188204
 GameObject:
   m_ObjectHideFlags: 0
@@ -2913,6 +3039,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2133646606}
   - component: {fileID: 2133646607}
+  - component: {fileID: 2133646608}
   m_Layer: 0
   m_Name: hat1
   m_TagString: Untagged
@@ -2988,6 +3115,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &2133646608
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2133646605}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.7793055, y: 3.5263314, z: 0.20000002}
+  m_Center: {x: 0.09925246, y: 0.30627772, z: 0}
 --- !u!212 &94076756118998141
 SpriteRenderer:
   m_ObjectHideFlags: 0
