@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 15428114}
   m_Layer: 0
   m_Name: Letter9
-  m_TagString: Untagged
+  m_TagString: letterbox
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -304,6 +304,7 @@ GameObject:
   - component: {fileID: 258733392}
   - component: {fileID: 258733393}
   - component: {fileID: 258733394}
+  - component: {fileID: 258733395}
   m_Layer: 0
   m_Name: hat11
   m_TagString: Untagged
@@ -407,6 +408,32 @@ MonoBehaviour:
   layermask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &258733395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 258733390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 677aa84e393a7f648971252eda395582, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  letterBoxes:
+  - {fileID: 4418524890704461163}
+  - {fileID: 299368943}
+  - {fileID: 2062188204}
+  - {fileID: 861234489}
+  - {fileID: 808471991}
+  - {fileID: 1800405287}
+  - {fileID: 1060035332}
+  - {fileID: 631556160}
+  - {fileID: 15428112}
+  - {fileID: 1800929201}
+  mapHolder: {fileID: 6450827860107869085}
+  letterToInstantiate: {fileID: 8108504899102516352, guid: d9e3838a04dafa24aac541462098be86,
+    type: 3}
 --- !u!1 &299368943
 GameObject:
   m_ObjectHideFlags: 0
@@ -419,7 +446,7 @@ GameObject:
   - component: {fileID: 299368945}
   m_Layer: 0
   m_Name: Letter2
-  m_TagString: Untagged
+  m_TagString: letterbox
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -504,6 +531,7 @@ GameObject:
   - component: {fileID: 340323538}
   - component: {fileID: 340323539}
   - component: {fileID: 340323540}
+  - component: {fileID: 340323541}
   m_Layer: 0
   m_Name: hat2
   m_TagString: Untagged
@@ -607,6 +635,32 @@ MonoBehaviour:
   layermask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &340323541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 340323536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 677aa84e393a7f648971252eda395582, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  letterBoxes:
+  - {fileID: 4418524890704461163}
+  - {fileID: 299368943}
+  - {fileID: 2062188204}
+  - {fileID: 861234489}
+  - {fileID: 808471991}
+  - {fileID: 1800405287}
+  - {fileID: 1060035332}
+  - {fileID: 631556160}
+  - {fileID: 15428112}
+  - {fileID: 1800929201}
+  mapHolder: {fileID: 6450827860107869085}
+  letterToInstantiate: {fileID: 8108504899102516352, guid: d9e3838a04dafa24aac541462098be86,
+    type: 3}
 --- !u!1 &390714769
 GameObject:
   m_ObjectHideFlags: 0
@@ -1091,7 +1145,7 @@ GameObject:
   - component: {fileID: 631556162}
   m_Layer: 0
   m_Name: Letter8
-  m_TagString: Untagged
+  m_TagString: letterbox
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1236,6 +1290,7 @@ GameObject:
   - component: {fileID: 717330092}
   - component: {fileID: 717330093}
   - component: {fileID: 717330094}
+  - component: {fileID: 717330095}
   m_Layer: 0
   m_Name: hat4
   m_TagString: Untagged
@@ -1339,6 +1394,32 @@ MonoBehaviour:
   layermask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &717330095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 717330090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 677aa84e393a7f648971252eda395582, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  letterBoxes:
+  - {fileID: 4418524890704461163}
+  - {fileID: 299368943}
+  - {fileID: 2062188204}
+  - {fileID: 861234489}
+  - {fileID: 808471991}
+  - {fileID: 1800405287}
+  - {fileID: 1060035332}
+  - {fileID: 631556160}
+  - {fileID: 15428112}
+  - {fileID: 1800929201}
+  mapHolder: {fileID: 6450827860107869085}
+  letterToInstantiate: {fileID: 8108504899102516352, guid: d9e3838a04dafa24aac541462098be86,
+    type: 3}
 --- !u!1 &729749345
 GameObject:
   m_ObjectHideFlags: 0
@@ -1435,7 +1516,7 @@ GameObject:
   - component: {fileID: 808471993}
   m_Layer: 0
   m_Name: Letter5
-  m_TagString: Untagged
+  m_TagString: letterbox
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1520,7 +1601,7 @@ GameObject:
   - component: {fileID: 861234491}
   m_Layer: 0
   m_Name: Letter4
-  m_TagString: Untagged
+  m_TagString: letterbox
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1605,6 +1686,7 @@ GameObject:
   - component: {fileID: 961132281}
   - component: {fileID: 961132282}
   - component: {fileID: 961132283}
+  - component: {fileID: 961132284}
   m_Layer: 0
   m_Name: hat7
   m_TagString: Untagged
@@ -1708,6 +1790,32 @@ MonoBehaviour:
   layermask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &961132284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 961132279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 677aa84e393a7f648971252eda395582, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  letterBoxes:
+  - {fileID: 4418524890704461163}
+  - {fileID: 299368943}
+  - {fileID: 2062188204}
+  - {fileID: 861234489}
+  - {fileID: 808471991}
+  - {fileID: 1800405287}
+  - {fileID: 1060035332}
+  - {fileID: 631556160}
+  - {fileID: 15428112}
+  - {fileID: 1800929201}
+  mapHolder: {fileID: 6450827860107869085}
+  letterToInstantiate: {fileID: 8108504899102516352, guid: d9e3838a04dafa24aac541462098be86,
+    type: 3}
 --- !u!1 &1060035332
 GameObject:
   m_ObjectHideFlags: 0
@@ -1720,7 +1828,7 @@ GameObject:
   - component: {fileID: 1060035334}
   m_Layer: 0
   m_Name: Letter7
-  m_TagString: Untagged
+  m_TagString: letterbox
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1889,6 +1997,7 @@ GameObject:
   - component: {fileID: 1244710014}
   - component: {fileID: 1244710015}
   - component: {fileID: 1244710016}
+  - component: {fileID: 1244710017}
   m_Layer: 0
   m_Name: hat12
   m_TagString: Untagged
@@ -1992,6 +2101,32 @@ MonoBehaviour:
   layermask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &1244710017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1244710012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 677aa84e393a7f648971252eda395582, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  letterBoxes:
+  - {fileID: 4418524890704461163}
+  - {fileID: 299368943}
+  - {fileID: 2062188204}
+  - {fileID: 861234489}
+  - {fileID: 808471991}
+  - {fileID: 1800405287}
+  - {fileID: 1060035332}
+  - {fileID: 631556160}
+  - {fileID: 15428112}
+  - {fileID: 1800929201}
+  mapHolder: {fileID: 6450827860107869085}
+  letterToInstantiate: {fileID: 8108504899102516352, guid: d9e3838a04dafa24aac541462098be86,
+    type: 3}
 --- !u!1 &1354141925
 GameObject:
   m_ObjectHideFlags: 0
@@ -2215,6 +2350,7 @@ GameObject:
   - component: {fileID: 1553382498}
   - component: {fileID: 1553382499}
   - component: {fileID: 1553382500}
+  - component: {fileID: 1553382501}
   m_Layer: 0
   m_Name: hat9
   m_TagString: Untagged
@@ -2318,6 +2454,32 @@ MonoBehaviour:
   layermask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &1553382501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1553382496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 677aa84e393a7f648971252eda395582, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  letterBoxes:
+  - {fileID: 4418524890704461163}
+  - {fileID: 299368943}
+  - {fileID: 2062188204}
+  - {fileID: 861234489}
+  - {fileID: 808471991}
+  - {fileID: 1800405287}
+  - {fileID: 1060035332}
+  - {fileID: 631556160}
+  - {fileID: 15428112}
+  - {fileID: 1800929201}
+  mapHolder: {fileID: 6450827860107869085}
+  letterToInstantiate: {fileID: 8108504899102516352, guid: d9e3838a04dafa24aac541462098be86,
+    type: 3}
 --- !u!1 &1558349418
 GameObject:
   m_ObjectHideFlags: 0
@@ -2414,6 +2576,7 @@ GameObject:
   - component: {fileID: 1614941858}
   - component: {fileID: 1614941859}
   - component: {fileID: 1614941860}
+  - component: {fileID: 1614941861}
   m_Layer: 0
   m_Name: hat5
   m_TagString: Untagged
@@ -2517,6 +2680,32 @@ MonoBehaviour:
   layermask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &1614941861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1614941856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 677aa84e393a7f648971252eda395582, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  letterBoxes:
+  - {fileID: 4418524890704461163}
+  - {fileID: 299368943}
+  - {fileID: 2062188204}
+  - {fileID: 861234489}
+  - {fileID: 808471991}
+  - {fileID: 1800405287}
+  - {fileID: 1060035332}
+  - {fileID: 631556160}
+  - {fileID: 15428112}
+  - {fileID: 1800929201}
+  mapHolder: {fileID: 6450827860107869085}
+  letterToInstantiate: {fileID: 8108504899102516352, guid: d9e3838a04dafa24aac541462098be86,
+    type: 3}
 --- !u!1 &1659859597
 GameObject:
   m_ObjectHideFlags: 0
@@ -2616,7 +2805,7 @@ GameObject:
   - component: {fileID: 1800405289}
   m_Layer: 0
   m_Name: Letter6
-  m_TagString: Untagged
+  m_TagString: letterbox
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2701,7 +2890,7 @@ GameObject:
   - component: {fileID: 1800929203}
   m_Layer: 0
   m_Name: Letter10
-  m_TagString: Untagged
+  m_TagString: letterbox
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2786,6 +2975,7 @@ GameObject:
   - component: {fileID: 1936139745}
   - component: {fileID: 1936139746}
   - component: {fileID: 1936139747}
+  - component: {fileID: 1936139748}
   m_Layer: 0
   m_Name: hat10
   m_TagString: Untagged
@@ -2889,6 +3079,32 @@ MonoBehaviour:
   layermask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &1936139748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1936139743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 677aa84e393a7f648971252eda395582, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  letterBoxes:
+  - {fileID: 4418524890704461163}
+  - {fileID: 299368943}
+  - {fileID: 2062188204}
+  - {fileID: 861234489}
+  - {fileID: 808471991}
+  - {fileID: 1800405287}
+  - {fileID: 1060035332}
+  - {fileID: 631556160}
+  - {fileID: 15428112}
+  - {fileID: 1800929201}
+  mapHolder: {fileID: 6450827860107869085}
+  letterToInstantiate: {fileID: 8108504899102516352, guid: d9e3838a04dafa24aac541462098be86,
+    type: 3}
 --- !u!1 &2010513652
 GameObject:
   m_ObjectHideFlags: 0
@@ -2985,6 +3201,7 @@ GameObject:
   - component: {fileID: 2035416590}
   - component: {fileID: 2035416591}
   - component: {fileID: 2035416592}
+  - component: {fileID: 2035416593}
   m_Layer: 0
   m_Name: hat8
   m_TagString: Untagged
@@ -3088,6 +3305,32 @@ MonoBehaviour:
   layermask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &2035416593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2035416588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 677aa84e393a7f648971252eda395582, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  letterBoxes:
+  - {fileID: 4418524890704461163}
+  - {fileID: 299368943}
+  - {fileID: 2062188204}
+  - {fileID: 861234489}
+  - {fileID: 808471991}
+  - {fileID: 1800405287}
+  - {fileID: 1060035332}
+  - {fileID: 631556160}
+  - {fileID: 15428112}
+  - {fileID: 1800929201}
+  mapHolder: {fileID: 6450827860107869085}
+  letterToInstantiate: {fileID: 8108504899102516352, guid: d9e3838a04dafa24aac541462098be86,
+    type: 3}
 --- !u!1 &2062188204
 GameObject:
   m_ObjectHideFlags: 0
@@ -3100,7 +3343,7 @@ GameObject:
   - component: {fileID: 2062188206}
   m_Layer: 0
   m_Name: Letter3
-  m_TagString: Untagged
+  m_TagString: letterbox
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3185,6 +3428,7 @@ GameObject:
   - component: {fileID: 2133646607}
   - component: {fileID: 2133646608}
   - component: {fileID: 2133646609}
+  - component: {fileID: 2133646610}
   m_Layer: 0
   m_Name: hat1
   m_TagString: Untagged
@@ -3288,6 +3532,32 @@ MonoBehaviour:
   layermask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &2133646610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2133646605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 677aa84e393a7f648971252eda395582, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  letterBoxes:
+  - {fileID: 4418524890704461163}
+  - {fileID: 299368943}
+  - {fileID: 2062188204}
+  - {fileID: 861234489}
+  - {fileID: 808471991}
+  - {fileID: 1800405287}
+  - {fileID: 1060035332}
+  - {fileID: 631556160}
+  - {fileID: 15428112}
+  - {fileID: 1800929201}
+  mapHolder: {fileID: 6450827860107869085}
+  letterToInstantiate: {fileID: 8108504899102516352, guid: d9e3838a04dafa24aac541462098be86,
+    type: 3}
 --- !u!212 &94076756118998141
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3421,7 +3691,7 @@ GameObject:
   - component: {fileID: 7321176750633585291}
   m_Layer: 0
   m_Name: Letter1
-  m_TagString: Untagged
+  m_TagString: letterbox
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3436,6 +3706,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7700903830112950183}
   - component: {fileID: 94076756118998141}
+  - component: {fileID: 7700903830112950184}
   m_Layer: 0
   m_Name: Map
   m_TagString: Untagged
@@ -3545,3 +3816,16 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7700903830112950184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6450827860107869085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69d685e9a1d34d04fbd49f5b77a5e56c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  swappedHats: []
