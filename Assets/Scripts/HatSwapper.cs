@@ -7,9 +7,10 @@ using UnityEngine;
 public class HatSwapper : MonoBehaviour
 {
 
-    public GameObject[] letterBoxes;
     public GameObject mapHolder;
     public GameObject letterToInstantiate;
+
+    public Vector3 initialPosition;
 
     SpriteRenderer spriteRenderer;
     SpriteRenderer addedSpriteRenderer;
@@ -19,12 +20,9 @@ public class HatSwapper : MonoBehaviour
     Transform hatLetter;
 
     GameObject currentLetterBox;
-    
-
-    Vector3 initialPosition;
 
     ActionControll actionControll;
-    
+
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -33,6 +31,7 @@ public class HatSwapper : MonoBehaviour
         initialPosition = gameObject.transform.position;
         currentLetterBox = null;
         actionControll = mapHolder.GetComponent<ActionControll>();
+        
     }
 
     void Update()
@@ -89,11 +88,11 @@ public class HatSwapper : MonoBehaviour
                 addedSpriteRenderer.sprite = sprite1;
                 break;
             case "hat10":
-                sprite1 = Resources.Load<Sprite>("Hats/Group 45.png");
+                sprite1 = Resources.Load<Sprite>("Hats/Group_45");
                 addedSpriteRenderer.sprite = sprite1;
                 break;
             case "hat7":
-                sprite1 = Resources.Load<Sprite>("Hats/Group 42.png");
+                sprite1 = Resources.Load<Sprite>("Hats/Group_42");
                 addedSpriteRenderer.sprite = sprite1;
                 break;
             default:
@@ -101,16 +100,23 @@ public class HatSwapper : MonoBehaviour
         }
         instantiatedLetter.transform.localScale = new Vector3(0.8f, 0.8f, 0.8f);
         actionControll.swappedHats.Add(gameObject);
+        int memoryPlace = int.Parse(currentLetterBox.name.Substring(6, currentLetterBox.name.Length-6)) - 1;
+        actionControll.letterboxMemory[memoryPlace] = gameObject.name;
+        int index = actionControll.letterBoxes.IndexOf(currentLetterBox);
+        actionControll.letterBoxes.RemoveAt(index);
         gameObject.SetActive(false);
     }
 
     private void CheckDistance()
     {
-        foreach (var letterBox in letterBoxes)
+        foreach (var letterBox in actionControll.letterBoxes)
         {
-            if (Vector3.Magnitude(letterBox.transform.position - hatLetter.position) < disappearingDistance && spriteRenderer.enabled)
+            if (Vector3.Magnitude(letterBox.transform.position - hatLetter.position) < disappearingDistance )
             {
-                spriteRenderer.enabled = false;
+                if (spriteRenderer.enabled)
+                {
+                    spriteRenderer.enabled = false;
+                }
                 currentLetterBox = letterBox;
                 return;
             } else

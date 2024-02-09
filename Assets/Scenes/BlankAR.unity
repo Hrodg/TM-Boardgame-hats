@@ -218,7 +218,7 @@ GameObject:
   m_Component:
   - component: {fileID: 182467027}
   - component: {fileID: 182467028}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: hatletter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -305,7 +305,7 @@ GameObject:
   - component: {fileID: 258733393}
   - component: {fileID: 258733394}
   - component: {fileID: 258733395}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: hat11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -407,7 +407,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   layermask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 8
 --- !u!114 &258733395
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -434,6 +434,7 @@ MonoBehaviour:
   mapHolder: {fileID: 6450827860107869085}
   letterToInstantiate: {fileID: 8108504899102516352, guid: d9e3838a04dafa24aac541462098be86,
     type: 3}
+  initialPosition: {x: 0, y: 0, z: 0}
 --- !u!1 &299368943
 GameObject:
   m_ObjectHideFlags: 0
@@ -532,7 +533,7 @@ GameObject:
   - component: {fileID: 340323539}
   - component: {fileID: 340323540}
   - component: {fileID: 340323541}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: hat2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -634,7 +635,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   layermask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 8
 --- !u!114 &340323541
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -661,6 +662,7 @@ MonoBehaviour:
   mapHolder: {fileID: 6450827860107869085}
   letterToInstantiate: {fileID: 8108504899102516352, guid: d9e3838a04dafa24aac541462098be86,
     type: 3}
+  initialPosition: {x: 0, y: 0, z: 0}
 --- !u!1 &390714769
 GameObject:
   m_ObjectHideFlags: 0
@@ -671,7 +673,7 @@ GameObject:
   m_Component:
   - component: {fileID: 390714770}
   - component: {fileID: 390714771}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: hatletter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -849,7 +851,7 @@ GameObject:
   m_Component:
   - component: {fileID: 441494341}
   - component: {fileID: 441494342}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: hatletter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -933,7 +935,7 @@ GameObject:
   m_Component:
   - component: {fileID: 542807414}
   - component: {fileID: 542807415}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: hatletter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1059,7 +1061,7 @@ GameObject:
   m_Component:
   - component: {fileID: 616682865}
   - component: {fileID: 616682866}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: hatletter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1291,7 +1293,7 @@ GameObject:
   - component: {fileID: 717330093}
   - component: {fileID: 717330094}
   - component: {fileID: 717330095}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: hat4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1393,7 +1395,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   layermask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 8
 --- !u!114 &717330095
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1420,6 +1422,7 @@ MonoBehaviour:
   mapHolder: {fileID: 6450827860107869085}
   letterToInstantiate: {fileID: 8108504899102516352, guid: d9e3838a04dafa24aac541462098be86,
     type: 3}
+  initialPosition: {x: 0, y: 0, z: 0}
 --- !u!1 &729749345
 GameObject:
   m_ObjectHideFlags: 0
@@ -1430,7 +1433,7 @@ GameObject:
   m_Component:
   - component: {fileID: 729749346}
   - component: {fileID: 729749347}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: hatletter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1687,7 +1690,7 @@ GameObject:
   - component: {fileID: 961132282}
   - component: {fileID: 961132283}
   - component: {fileID: 961132284}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: hat7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1789,7 +1792,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   layermask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 8
 --- !u!114 &961132284
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1816,6 +1819,7 @@ MonoBehaviour:
   mapHolder: {fileID: 6450827860107869085}
   letterToInstantiate: {fileID: 8108504899102516352, guid: d9e3838a04dafa24aac541462098be86,
     type: 3}
+  initialPosition: {x: 0, y: 0, z: 0}
 --- !u!1 &1060035332
 GameObject:
   m_ObjectHideFlags: 0
@@ -1911,7 +1915,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1070534834}
   - component: {fileID: 1070534835}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: hatletter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1998,7 +2002,7 @@ GameObject:
   - component: {fileID: 1244710015}
   - component: {fileID: 1244710016}
   - component: {fileID: 1244710017}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: hat12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2100,7 +2104,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   layermask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 8
 --- !u!114 &1244710017
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2127,6 +2131,7 @@ MonoBehaviour:
   mapHolder: {fileID: 6450827860107869085}
   letterToInstantiate: {fileID: 8108504899102516352, guid: d9e3838a04dafa24aac541462098be86,
     type: 3}
+  initialPosition: {x: 0, y: 0, z: 0}
 --- !u!1 &1354141925
 GameObject:
   m_ObjectHideFlags: 0
@@ -2264,7 +2269,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1355025825}
   - component: {fileID: 1355025826}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: hatletter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2351,7 +2356,7 @@ GameObject:
   - component: {fileID: 1553382499}
   - component: {fileID: 1553382500}
   - component: {fileID: 1553382501}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: hat9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2453,7 +2458,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   layermask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 8
 --- !u!114 &1553382501
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2480,6 +2485,7 @@ MonoBehaviour:
   mapHolder: {fileID: 6450827860107869085}
   letterToInstantiate: {fileID: 8108504899102516352, guid: d9e3838a04dafa24aac541462098be86,
     type: 3}
+  initialPosition: {x: 0, y: 0, z: 0}
 --- !u!1 &1558349418
 GameObject:
   m_ObjectHideFlags: 0
@@ -2490,7 +2496,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1558349419}
   - component: {fileID: 1558349420}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: hatletter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2577,7 +2583,7 @@ GameObject:
   - component: {fileID: 1614941859}
   - component: {fileID: 1614941860}
   - component: {fileID: 1614941861}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: hat5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2679,7 +2685,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   layermask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 8
 --- !u!114 &1614941861
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2706,6 +2712,7 @@ MonoBehaviour:
   mapHolder: {fileID: 6450827860107869085}
   letterToInstantiate: {fileID: 8108504899102516352, guid: d9e3838a04dafa24aac541462098be86,
     type: 3}
+  initialPosition: {x: 0, y: 0, z: 0}
 --- !u!1 &1659859597
 GameObject:
   m_ObjectHideFlags: 0
@@ -2976,7 +2983,7 @@ GameObject:
   - component: {fileID: 1936139746}
   - component: {fileID: 1936139747}
   - component: {fileID: 1936139748}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: hat10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3078,7 +3085,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   layermask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 8
 --- !u!114 &1936139748
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3105,6 +3112,7 @@ MonoBehaviour:
   mapHolder: {fileID: 6450827860107869085}
   letterToInstantiate: {fileID: 8108504899102516352, guid: d9e3838a04dafa24aac541462098be86,
     type: 3}
+  initialPosition: {x: 0, y: 0, z: 0}
 --- !u!1 &2010513652
 GameObject:
   m_ObjectHideFlags: 0
@@ -3115,7 +3123,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2010513653}
   - component: {fileID: 2010513654}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: hatletter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3202,7 +3210,7 @@ GameObject:
   - component: {fileID: 2035416591}
   - component: {fileID: 2035416592}
   - component: {fileID: 2035416593}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: hat8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3304,7 +3312,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   layermask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 8
 --- !u!114 &2035416593
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3331,6 +3339,7 @@ MonoBehaviour:
   mapHolder: {fileID: 6450827860107869085}
   letterToInstantiate: {fileID: 8108504899102516352, guid: d9e3838a04dafa24aac541462098be86,
     type: 3}
+  initialPosition: {x: 0, y: 0, z: 0}
 --- !u!1 &2062188204
 GameObject:
   m_ObjectHideFlags: 0
@@ -3429,7 +3438,7 @@ GameObject:
   - component: {fileID: 2133646608}
   - component: {fileID: 2133646609}
   - component: {fileID: 2133646610}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: hat1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3531,7 +3540,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   layermask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 8
 --- !u!114 &2133646610
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3558,6 +3567,7 @@ MonoBehaviour:
   mapHolder: {fileID: 6450827860107869085}
   letterToInstantiate: {fileID: 8108504899102516352, guid: d9e3838a04dafa24aac541462098be86,
     type: 3}
+  initialPosition: {x: 0, y: 0, z: 0}
 --- !u!212 &94076756118998141
 SpriteRenderer:
   m_ObjectHideFlags: 0

@@ -8,12 +8,7 @@ public class HatMover : MonoBehaviour
 
     Touch touch;
 
-    float touchSpeed;
-
-    void Start()
-    {
-        touchSpeed = 0.0077f;
-    }
+    float touchSpeed = 0.0077f;
 
     void Update()
     {
