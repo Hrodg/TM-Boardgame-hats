@@ -10,9 +10,16 @@ public class HatMover : MonoBehaviour
 
     float touchSpeed = 0.0077f;
 
+    ActionControll actionControll;
+
+    void Start()
+    {
+        actionControll = GameObject.Find("Map").GetComponent<ActionControll>();
+    }
+
     void Update()
     {
-        if (Input.touchCount > 0)
+        if (Input.touchCount > 0 && !actionControll.stopWin)
         {
             touch = Input.GetTouch(0);
             Ray ray = Camera.main.ScreenPointToRay(touch.position);
